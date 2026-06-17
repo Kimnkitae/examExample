@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 20px auto;
+}
+
+.hero__inner {
+    margin: 0 125px;
+}
+
+.courses__inner {
+    margin: 0 125px;
+}
+
+.schedule__inner {
+    margin: 0 125px;
+}
+
+.card__inner {
+    margin: 0 125px;
+}
+
+.training__inner {
+    margin: 0 125px;
+}
+
+.gift-cards__inner {
+    margin: 0 125px;
+}
+
+.bundles__inner {
+    margin: 0 125px;
+}
