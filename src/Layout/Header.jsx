@@ -13,10 +13,14 @@ function Header() {
               <img src={logo} alt="logo" />
             </div>
             <ul className='header__menu'>
-              
+              <li className='header__menu-item'><a>Courses</a></li>
+              <li className='header__menu-item'><a>Home</a></li>
+              <li className='header__menu-item'><a>Schedule</a></li> 
+              <li className='header__menu-item'><a>Contacts</a></li>
             </ul>
             <div className="header__btns">
-
+              <button className='header__btn btn__log-in'>LOG IN</button>
+              <button className='header__btn btn__sign-up'>SIGN UP</button>
             </div>
           </div>
         </div>

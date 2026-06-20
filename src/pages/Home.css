@@ -4,19 +4,22 @@
     box-sizing: border-box;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.hero {
+    background-color: #D2E6E4;
 }
 
 .container {
     max-width: 1440px;
-    margin: 20px auto;
+    margin: 0px auto;
+    padding: 20px 0;
 }
 
 .hero__inner {
     margin: 0 125px;
+}
+
+.hero__img {
+    width: 20%;
 }
 
 .courses__inner {

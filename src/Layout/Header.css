@@ -2,13 +2,66 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: RaleWay-Bold;
+    src: url(src/assets/fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: RaleWay-Light;
+    src: url(src/assets/fonts/Raleway-Light.ttf);
 }
 
 .container {
     max-width: 1440px;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.header {
+    background-color: #D2E6E4;
 }
 
 .header__inner {
     margin: 0 125px;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__menu {
+    display: flex;
+    gap: 10px;
+}
+
+.header__menu-item {
+    font-family: RaleWay-Bold;
+}
+
+.header__btns {
+    display: flex;
+    gap: 20px;
+}
+
+.header__btn {
+    font-family: RaleWay-Light;
+    border: none;
+    padding: 13px 30px;
+    border-radius: 7px;
+}
+
+.btn__log-in {
+    background-color: #FFF;
+    color: #0B7077;
+}
+
+.btn__sign-up {
+    background-color: #0B7077;
+    color: #ffffff;
 }

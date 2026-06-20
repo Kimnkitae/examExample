@@ -1,4 +1,9 @@
 import "./Home.css"
+import hero from '../assets/img/hero.png'
+import more from '../assets/icons/more.svg'
+import ad1 from '../assets/icons/ad1.svg'
+import ad2 from '../assets/icons/ad2.svg'
+import heroReviews from '../assets/img/reviews.png'
 
 function Home() {
   
@@ -9,12 +14,24 @@ function Home() {
         <div className="container">
           <div className="hero__inner">
               <div className="hero__left">
-
+                <div className="p"></div>
+                <div className="h1"></div>
+                <div className="hero__btn">
+                  <img src={heroReviews} />
+                </div>
               </div>
               <div className="hero__right">
-
+                <img className="hero__img" src={hero} alt="more" />
               </div>
-              <img src="" alt="more" />
+              <div className="ad1">
+                <img src={ad1} />
+              </div>
+              <div className="ad2">
+                <img src={ad2} />
+              </div>
+              <div className="hero__video">
+                <img src={more} />
+              </div>
           </div>
         </div>
       </div>
