@@ -15,7 +15,7 @@ function Header() {
             <ul className='header__menu'>
               <li className='header__menu-item'><a>Courses</a></li>
               <li className='header__menu-item'><a>Home</a></li>
-              <li className='header__menu-item'><a>Schedule</a></li> 
+              <li className='header__menu-item'><a>Category</a></li> 
               <li className='header__menu-item'><a>Contacts</a></li>
             </ul>
             <div className="header__btns">
